@@ -1,0 +1,72 @@
+/* Reset some defaults */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 20px;
+  background-color: #f0f8ff;  /* soft light blue background */
+}
+
+/* Form styling */
+form {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 6px 10px;
+  margin-right: 10px;
+  border: 1px solid #8e44ad;  /* purple border */
+  border-radius: 6px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #9b59b6;
+  box-shadow: 0 0 5px rgba(155, 89, 182, 0.5);
+}
+
+button {
+  padding: 6px 14px;
+  border: none;
+  border-radius: 6px;
+  background-color: #e67e22;  /* orange button */
+  color: white;
+  cursor: pointer;
+  margin-left: 5px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #d35400;  /* darker orange on hover */
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+th, td {
+  border: 1px solid #8e44ad;  /* purple borders for uniqueness */
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #9b59b6;  /* purple header */
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f9e5ff;  /* light lavender for even rows */
+}
+
+/* Simple container */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fffaf0; /* light cream background */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
